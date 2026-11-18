@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head><title>Vulnerable Login</title></head>
 <body>
-    <h2>Vulnerable Login (SQL Injection Demo)</h2>
+    <h2>Vulnerable Login</h2>
     <form method="POST">
         Username: <input type="text" name="username" required><br><br>
         Password: <input type="password" name="password" required><br><br>

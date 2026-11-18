@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head><title>Secure Login</title></head>
 <body>
-    <h2>Secure Login (PDO Prepared Statements)</h2>
+    <h2>Secure Login</h2>
     <form method="POST">
         Username: <input type="text" name="username" required><br><br>
         Password: <input type="password" name="password" required><br><br>
