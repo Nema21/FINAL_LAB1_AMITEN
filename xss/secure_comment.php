@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <h2>Secure Comment Page</h2>
     <form method="POST">
-        <textarea name="comment" rows="4" cols="40" placeholder="Enter a comment (e.g., <b>Bold Text</b>)" required></textarea><br><br>
+        <textarea name="comment" rows="4" cols="40" placeholder="Enter a comment." required></textarea><br><br>
         <button type="submit">Post Comment</button>
     </form>
     
